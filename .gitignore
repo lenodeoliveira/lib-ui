@@ -1,0 +1,16 @@
+/node_modules
+*.logs
+
+#OS
+.DS_Store
+
+# Build
+/build
+/dist
+/.cache
+/.next
+/.nuxt
+/.output
+/.vercel
+/.output/public
+/.output/functions

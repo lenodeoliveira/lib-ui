@@ -1,0 +1,18 @@
+export const aliases: Record<string, string | string[]> = {
+    bg: 'backgroundColor',
+    p: 'padding',
+    pt: 'paddingTop',
+    pr: 'paddingRight',
+    pb: 'paddingBottom',
+    pl: 'paddingLeft',
+    px: ['paddingLeft', 'paddingRight'],
+    py: ['paddingTop', 'paddingBottom'],
+    m: 'margin',
+    mt: 'marginTop',
+    mr: 'marginRight',
+    mb: 'marginBottom',
+    ml: 'marginLeft',
+    mx: ['marginLeft', 'marginRight'],
+    my: ['marginTop', 'marginBottom'],
+    borderRadius: 'borderRadius',
+  };
